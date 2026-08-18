@@ -8,21 +8,21 @@ function App() {
       icon: <MessageCircle size={20} />,
       title: 'Fale Comigo no WhatsApp',
       subtitle: 'Tire dúvidas ou solicite um orçamento',
-      url: '#'
+      url: 'https://wa.me/5511970272253'
     },
     {
       id: 2,
       icon: <Target size={20} />,
       title: 'Leads Qualificados para Advogados',
       subtitle: 'Descubra como gerar mais consultas todos os dias com tráfego pago',
-      url: '#'
+      url: 'https://legal.nexusx6.com.br'
     },
     {
       id: 3,
       icon: <FileEdit size={20} />,
       title: 'Obter estratégia de tráfego personalizada',
       subtitle: 'Preencha o formulário e receba um plano personalizado para o seu negócio',
-      url: '#'
+      url: 'https://wa.me/5511970272253?text=Ol%C3%A1%20Matheus!%20Gostaria%20de%20receber%20uma%20estrat%C3%A9gia%20de%20tr%C3%A1fego%20personalizada%20para%20o%20meu%20neg%C3%B3cio.'
     },
     {
       id: 4,
