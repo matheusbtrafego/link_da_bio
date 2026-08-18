@@ -20,7 +20,7 @@ scp $FILE_NAME "root@${IP}:${DEST}/"
 
 # 4. Comandos Remotos na VPS
 Write-Host "Iniciando PM2 no servidor..."
-$remoteCmd = "cd $DEST; tar -xzf $FILE_NAME; pm2 delete nexus-link-bio 2>/dev/null; pm2 serve $DEST 5000 --name nexus-link-bio --spa; pm2 save"
+$remoteCmd = 'export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"; nvm use default; cd ' + $DEST + '; tar -xzf ' + $FILE_NAME + '; pm2 delete nexus-link-bio 2>/dev/null; pm2 serve ' + $DEST + '/dist 5000 --name nexus-link-bio --spa; pm2 save'
 ssh root@$IP $remoteCmd
 
 Write-Host "--- Deploy Finalizado ---"

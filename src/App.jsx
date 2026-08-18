@@ -1,4 +1,4 @@
-import { MessageCircle, Target, FileEdit, Youtube, TrendingUp, Briefcase, ShieldCheck, BadgeCheck, ChevronRight } from 'lucide-react';
+import { MessageCircle, Target, FileEdit, MonitorPlay, TrendingUp, Briefcase, ShieldCheck, BadgeCheck, ChevronRight } from 'lucide-react';
 import './index.css';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
     },
     {
       id: 4,
-      icon: <Youtube size={20} />,
+      icon: <MonitorPlay size={20} />,
       title: 'YouTube',
       subtitle: 'Conteúdos e aulas gratuitas toda semana',
       url: '#'
